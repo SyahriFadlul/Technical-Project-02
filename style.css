@@ -1,0 +1,59 @@
+/* reset style */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+  }
+
+#bmi{ 
+    margin: 100px 360px;   
+}
+
+#title {
+    text-align: center;
+}
+
+#title h1 , #title h3 {
+    padding-bottom: 20px;
+}
+
+#title h3{
+    font-weight: 200;
+}
+
+#form-bmi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#form-bmi > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input {
+    border-radius: 3px;
+    border: 1px solid blue;
+    padding: 4px 8px;
+}
+
+#button {
+    width: 25%;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-style: hidden;
+}
+
+#result {
+    padding-top: 10px;
+}
+
+span {
+    font-weight: bold;
+}
